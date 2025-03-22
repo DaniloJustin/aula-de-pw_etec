@@ -9,7 +9,7 @@
         body {
             font-family: Arial, sans-serif;
             
-            justify-content: center; /* Centraliza horizontalmente */
+            justify-content: center;
             margin-left: 20px;
             background-color: #f4f4f4;
         }
@@ -32,24 +32,55 @@
     <h1>Horário das Aulas</h1>
     <table>
         <thead>
+            <!-- A tag <thead> é usada para definir o cabeçalho da tabela.
+                 Geralmente, ela contém as linhas de título das colunas. -->
             <tr>
+                <!-- A tag <tr> define uma linha na tabela.
+                     Neste caso, é a linha do cabeçalho. -->
                 <th>Horário</th>
+                <!-- A tag <th> define uma célula de cabeçalho.
+                     O texto dentro dela é exibido em negrito e centralizado por padrão.
+                     Aqui, "Horário" é o título da primeira coluna. -->
                 <th>Segunda-feira</th>
+                <!-- Outra célula de cabeçalho, representando a coluna de segunda-feira. -->
                 <th>Terça-feira</th>
+                <!-- Célula de cabeçalho para a coluna de terça-feira. -->
                 <th>Quarta-feira</th>
+                <!-- Célula de cabeçalho para a coluna de quarta-feira. -->
                 <th>Quinta-feira</th>
+                <!-- Célula de cabeçalho para a coluna de quinta-feira. -->
                 <th>Sexta-feira</th>
+                <!-- Célula de cabeçalho para a coluna de sexta-feira. -->
             </tr>
+            <!-- Fim da linha do cabeçalho. -->
         </thead>
+        <!-- Fim do cabeçalho da tabela. -->
+
+        
         <tbody>
+            <!-- A tag <tbody> é usada para agrupar o corpo da tabela,
+                 onde ficam os dados principais (linhas e colunas). -->
             <tr>
+                <!-- A tag <tr> define uma linha na tabela.
+                     Neste caso, é uma linha de dados com informações sobre o horário e as disciplinas. -->
                 <td>18:50</td>
+                <!-- A tag <td> define uma célula de dados dentro da linha.
+                     Aqui, "18:50" representa o horário da aula. -->
                 <td>Ing<br>Prof. Silva</td>
+                <!-- Outra célula de dados, contendo a disciplina "Ing" (Inglês)
+                     e o nome do professor "Prof. Silva". O <br> insere uma quebra de linha. -->
                 <td>Português<br>Profª. Maria</td>
+                <!-- Célula de dados para a disciplina "Português" e a professora "Profª. Maria". -->
                 <td>História<br>Prof. João</td>
+                <!-- Célula de dados para a disciplina "História" e o professor "Prof. João". -->
                 <td>Geografia<br>Profª. Ana</td>
+                <!-- Célula de dados para a disciplina "Geografia" e a professora "Profª. Ana". -->
                 <td>Inglês<br>Profª. Clara</td>
+                <!-- Célula de dados para a disciplina "Inglês" e a professora "Profª. Clara". -->
             </tr>
+            <!-- Fim da linha de dados. -->
+        </tbody>
+        <!-- Fim do corpo da tabela. -->
             <tr>
                 <td>19:40</td>
                 <td>Física<br>Prof. Carlos</td>
