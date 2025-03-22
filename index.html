@@ -13,42 +13,79 @@
             margin-right: 20px;
             background-color: #f4f4f4;
         }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            /* Alinhamento de linha para Horizontal */
+            align-items: center;
+            width: 100%;
+            max-width: 1200px;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .foto-esquerda  {
+            width: 150px;
+            height: 150px;
+            flex-shrink: 0;
+            /* Não permite que a imagem diminua de tamanho */
+            margin: 0 40px;
+            /* Espaçamento entre a imagem e o texto */
+        } 
+
+        .foto-direita {
+            width: 150px;
+            height: 150px;
+            flex-shrink: 0;
+            /* Não permite que a imagem diminua de tamanho */
+            margin: 0 40px;
+            /* Espaçamento entre a imagem e o texto */
+
+        }
+        
         table {
             width: 100%;
             border-collapse: collapse;
+            /* Remove a separação entre as células da tabela */
             margin: 0 auto;
+
+            
             
         }
-
+    
         caption {
+            /* Estilo do título da tabela */
+            
             font-family: Franklin Gothic Heavy Italic;
+            /* Fonte do título da tabela */
             font-size: 1.5em;
             font-weight: bold;
             margin-bottom: 10px;
+            /* Espaçamento entre o título e a tabela */
         }
-
 
         th, td {
             border: 2px solid #000;
             padding: 8px;
             text-align: center;
             /* Alinhamento de linha para Horizontal */
-
         }
+        
 
         th {
             background-color: #0000008b;
         }
 
+        
+
     </style>
 </head>
 <body>
-    
     <table>
         <!-- A tag <table> é usada para criar uma tabela.
              Dentro dela, são definidas as linhas e colunas da tabela. -->
 
-        <caption>Horário das Aulas</caption>
+        <caption><img src="img/escola01.png" alt="Foto Esquerda" class="foto-esquerda">Horário das Aulas<img src="img/escola02.png" alt="Foto Direita" class="foto-direita"></caption>
         <!-- A tag <caption> é usada para definir o título da tabela.
              Neste caso, "Horário das Aulas" é o título da tabela. -->
         <thead>
@@ -107,6 +144,7 @@
                 <td>Geografia<br><br><strong>Profª. Ana</strong></td>
                 <td>Quimica<br><br><strong>Profª. Clara</strong></td>
             </tr>
+    <div class="foto1">
             <tr>
                 <td colspan="2" <span style="background-color: #0000008b;">20:40 </span></td>
                 <td colspan="5" <span style="background-color: #0000008b;">Intervalo</span></td>
