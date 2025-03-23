@@ -9,23 +9,27 @@
 
 
     .foto-esquerda {
-        height: 300px;
-        width: 300px;
+        height: 200px;
+        width: 200px;
         max-width: 300px;
-        margin-right: 20px;
+        margin: 0 10px;
+        margin-top: 10px;
+       
     }
 
     .foto-direita {
-        height: 300px;
-        width: 300px;
+        height: 200px;
+        width: 200px;
         max-width: 300px;
-        margin-left: 20px;
+        margin: 0 10px;
+        margin-top: 10px;
     }
 
     table {
         width: 100%; /* A tabela ocupa toda a largura disponível */
         border-collapse: collapse; /* Remove os espaços entre as bordas das células */
-        margin: 20px 0; /* Adiciona espaçamento acima e abaixo da tabela */
+        margin: 20px auto; /* Adiciona espaçamento acima e abaixo da tabela */
+        
     }
 
     caption {
