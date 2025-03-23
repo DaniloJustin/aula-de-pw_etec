@@ -1,0 +1,54 @@
+/* Estilo para telas grandes (desktops) */
+@media (min-width: 769px) { /* Aplica os estilos abaixo para telas com largura mínima de 769px */
+    body {
+        font-family: Arial, sans-serif; /* Define a fonte padrão */
+        margin: 0 auto; /* Centraliza o conteúdo */
+        background-color: #ffffff; /* Define a cor de fundo */
+        max-width: 1200px; /* Define uma largura máxima para o conteúdo */
+    }
+
+
+    .foto-esquerda {
+        height: 300px;
+        width: 300px;
+        max-width: 300px;
+        margin-right: 20px;
+    }
+
+    .foto-direita {
+        height: 300px;
+        width: 300px;
+        max-width: 300px;
+        margin-left: 20px;
+    }
+
+    table {
+        width: 100%; /* A tabela ocupa toda a largura disponível */
+        border-collapse: collapse; /* Remove os espaços entre as bordas das células */
+        margin: 20px 0; /* Adiciona espaçamento acima e abaixo da tabela */
+    }
+
+    caption {
+        font-family: 'Franklin Gothic Heavy Italic', sans-serif; /* Define a fonte do título */
+        font-size: 2em; /* Aumenta o tamanho da fonte do título */
+        font-weight: bold; /* Deixa o título em negrito */
+        margin-bottom: 15px; /* Adiciona espaçamento entre o título e a tabela */
+        text-align: center; /* Centraliza o título */
+    }
+
+    th, td {
+        border: 2px solid #000; /* Define bordas pretas de 2px */
+        padding: 12px; /* Adiciona espaçamento interno às células */
+        text-align: center; /* Centraliza o texto */
+        font-size: 1em; /* Define o tamanho da fonte */
+    }
+
+    th {
+        background-color: #0000008b; /* Define a cor de fundo do cabeçalho */
+        color: #fff; /* Define a cor do texto do cabeçalho como branco */
+    }
+
+    td {
+        font-size: 0.9em; /* Define um tamanho de fonte menor para as células */
+    }
+}
