@@ -1,1 +1,1 @@
-Essa tabela é para atividade da aula de programação web da etec uirapuru.
+aperfeiçõa atividade de PW 23.03.2025
