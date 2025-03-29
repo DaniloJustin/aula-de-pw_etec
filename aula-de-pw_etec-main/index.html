@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horário das Aulas</title>
+        
+
+    <style>
+        /* essa estilo de comentario é exclusivo do css3 */
+
+
+
+
+        /* Estilo para telas grandes (desktops) */
+@media (min-width: 769px) { /* Aplica os estilos abaixo para telas com largura mínima de 769px */
+    body {
+        font-family: Arial, sans-serif; /* Define a fonte padrão */
+        margin: 0 auto; /* Centraliza o conteúdo */
+        background-color: #ffffff; /* Define a cor de fundo */
+        max-width: 1200px; /* Define uma largura máxima para o conteúdo */
+    }
+
+
+    .foto-esquerda {
+        height: 200px;
+        width: 200px;
+        max-width: 300px;
+        margin: 0 10px;
+        margin-top: 10px;
+       
+    }
+
+    .foto-direita {
+        height: 200px;
+        width: 200px;
+        max-width: 300px;
+        margin: 0 10px;
+        margin-top: 10px;
+    }
+
+    table {
+        width: 100%; /* A tabela ocupa toda a largura disponível */
+        border-collapse: collapse; /* Remove os espaços entre as bordas das células */
+        margin: 20px auto; /* Adiciona espaçamento acima e abaixo da tabela */
+        
+    }
+
+    caption {
+        font-family: 'Franklin Gothic Heavy Italic', sans-serif; /* Define a fonte do título */
+        font-size: 2em; /* Aumenta o tamanho da fonte do título */
+        font-weight: bold; /* Deixa o título em negrito */
+        margin-bottom: 15px; /* Adiciona espaçamento entre o título e a tabela */
+        text-align: center; /* Centraliza o título */
+    }
+
+    th, td {
+        border: 2px solid #000; /* Define bordas pretas de 2px */
+        padding: 12px; /* Adiciona espaçamento interno às células */
+        text-align: center; /* Centraliza o texto */
+        font-size: 1em; /* Define o tamanho da fonte */
+    }
+
+    th {
+        background-color: #0000008b; /* Define a cor de fundo do cabeçalho */
+        color: #fff; /* Define a cor do texto do cabeçalho como branco */
+        text-align: left;
+    }
+
+    td {
+        font-size: 0.9em; /* Define um tamanho de fonte menor para as células */
+    }
+
+    .ajuste{
+        width: 50px;
+        height: 50px;
+        
+    }
+}
+
+            /* Estilo para telas pequenas (responsividade) */
+            @media (max-width: 768px) { /* Aplica os estilos abaixo para telas com largura máxima de 768px */
+        table, thead, tbody, th, td, tr {
+            display: block; /* Exibe cada elemento da tabela como um bloco */
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            justify-content: center;
+            margin-left: 20px;
+            margin-right: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            /* Alinhamento de linha para Horizontal */
+            align-items: center;
+            width: 100%;
+            max-width: 1200px;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .foto-esquerda {
+            height: 300px;
+            width: 300px;
+            max-width: 300px;
+            margin: 0 auto;
+            margin-top:  10px;
+        }
+
+        .foto-direita {
+            height: 300px;
+            width: 300px;
+            max-width: 300px;
+            margin: 0 auto;
+            margin-top: 10px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            /* Remove a separação entre as células da tabela */
+            margin: 0 auto;
+
+            
+            
+        }
+    
+        caption {
+            /* Estilo do título da tabela */
+            
+            font-family: Franklin Gothic Heavy Italic;
+            /* Fonte do título da tabela */
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-bottom: 10px;
+            /* Espaçamento entre o título e a tabela */
+        }
+
+        th, td {
+            border: 2px solid #000;
+            padding: 8px;
+            text-align: center;
+            /* Alinhamento de linha para Horizontal */
+        }
+        
+
+        th {
+            background-color: #0000008b;
+        }
+
+        
+
+    }   
+
+    
+
+    
+    </style>
+</head>
+<body>
+    <table>
+        <!-- A tag <table> é usada para criar uma tabela.
+            Dentro dela, são definidas as linhas e colunas da tabela. -->
+            
+            <caption><img src="escola01.png" alt="Foto Esquerda" class="foto-esquerda" >Horário das Aulas<img src="escola02.png" alt="Foto Direita" class="foto-direita"></caption>
+            <!-- A tag <caption> é usada para definir o título da tabela.
+                Neste caso, "Horário das Aulas" é o título da tabela. -->
+                <thead>
+                    <!-- A tag <thead> é usada para definir o cabeçalho da tabela.
+                        Geralmente, ela contém as linhas de título das colunas. -->
+                        
+                        <tr>
+                            <!-- A tag <tr> define uma linha na tabela.
+                                Neste caso, é a linha do cabeçalho. -->
+                                <th>Horário</th>
+                <!-- A tag <th> define uma célula de cabeçalho.
+                    O texto dentro dela é exibido em negrito e centralizado por padrão.
+                    Aqui, "Horário" é o título da primeira coluna. -->
+                    <th>Segunda-feira</th>
+                    <!-- Outra célula de cabeçalho, representando a coluna de segunda-feira. -->
+                    <th>Terça-feira</th>
+                    <!-- Célula de cabeçalho para a coluna de terça-feira. -->
+                    <th>Quarta-feira</th>
+                    <!-- Célula de cabeçalho para a coluna de quarta-feira. -->
+                    <th>Quinta-feira</th>
+                    <!-- Célula de cabeçalho para a coluna de quinta-feira. -->
+                    
+                    <th>Sexta-feira</th>
+                    <!-- Célula de cabeçalho para a coluna de sexta-feira. -->
+                </tr>
+                <!-- Fim da linha do cabeçalho. -->
+
+                
+        </thead>
+        <!-- Fim do cabeçalho da tabela. -->
+
+        
+        <tbody>
+            <!-- A tag <tbody> é usada para agrupar o corpo da tabela,
+                 onde ficam os dados principais (linhas e colunas). -->
+            <tr>
+                <!-- A tag <tr> define uma linha na tabela.
+                     Neste caso, é uma linha de dados com informações sobre o horário e as disciplinas. -->
+                <td>18:50</td>
+                <!-- A tag <td> define uma célula de dados dentro da linha.
+                     Aqui, "18:50" representa o horário da aula. -->
+    <td>Inglês<br><br><strong>Prof. Silva</strong></td>
+                <!-- Outra célula de dados, contendo a disciplina "Ing" (Inglês)
+                     e o nome do professor "Prof. Silva". O <br> insere uma quebra de linha. -->
+    <td>Português<br><br><strong>Profª. Maria</strong></td>
+                <!-- Célula de dados para a disciplina "Português" e a professora "Profª. Maria". -->
+    <td>História<br><br><strong>Prof. João</strong></td>
+                <!-- Célula de dados para a disciplina "História" e o professor "Prof. João". -->
+    <td>Geografia<br><br><strong>Profª. Ana</strong></td>
+                <!-- Célula de dados para a disciplina "Geografia" e a professora "Profª. Ana". -->
+    <td>Quimica<br><br><strong>Profª. Clara</strong></td>
+                <!-- Célula de dados para a disciplina "Química" e a professora "Profª. Clara". -->
+            </tr>
+            <!-- Fim da linha de dados. -->
+            <tr>
+                <td>19:40</td>
+                <td>Inglês<br><br><strong>Prof. Silva</strong></td>
+                <td>Português<br><br><b>Profª. Maria</b></td>
+                <td>História<br><br><strong>Prof. João</strong></td>
+                <td>Geografia<br><br><strong>Profª. Ana</strong></td>
+                <td>Quimica<br><br><strong>Profª. Clara</strong></td>
+            </tr>
+    <div class="foto1">
+            <tr>
+                <td colspan="2" <span style="background-color: #0000008b;">20:40 </span></td>
+                <td colspan="5" <span style="background-color: #0000008b;">Intervalo</span></td>
+            </tr>
+
+            <tr>
+                <td>21:00</td>
+                <td>Matemática<br><br><strong>Prof. Bruno</strong></td>
+                <td>Biologia<br><br><strong>Profª. Aline</strong></td>
+                <td>Física<br><br><strong>Prof. João</strong></td>
+                <td>Educação Física<br><br><strong>Profª. Eloá</strong></td>
+                <td>Artes<br><br><strong>Profª. Sofia</strong></td>
+            </tr>
+            <tr>
+                <td>22:50</td>
+                <td>Matemática<br><br><strong>Prof. bruno</strong></td>
+                <td>Biologia<br><br><strong>Profª. Aline</strong></td>
+                <td>Física<br><br><strong>Prof. João</strong></td>
+                <td>Educação Física<br><br><strong>Profª. Eloá</strong></td>
+                <td>Artes<br><br><strong>Profª. Sofia</strong></td>
+            </tr>
+
+            
+            
+
+            <tr>
+                <td><img src="professora02.png" class="ajuste"></td>
+            </tr>
+
+            <tr>
+                <td><img src="professora03.jpg" class="ajuste"></td>
+            </tr>
+
+            <tr>
+                <td><img src="professora04.jfif" class="ajuste"></td>
+            </tr>
+
+            <tr>
+                <td><img src="professora05.jfif" class="ajuste"></td>
+            </tr>
+                    
+            <tr>
+                <td><img src="professor06.png" class="ajuste"></td>
+            </tr>
+
+            <tr>
+                <td><img src="professor0.jpg" class="ajuste"></td>
+            </tr>
+        </tbody>
+        <!-- Fim do corpo da tabela. -->
+    </table>
+</body>
+</html>
